@@ -26,8 +26,8 @@ public class Processo2 {
 		System.out.println("\nImprimindo todas as pessoas:");
 		imprimirSobrenomeCondicionalmente(pessoas, p -> true );
 		
-		System.out.println("\nImprimindo pessoas cujo nome começa com A:");
-		imprimirSobrenomeCondicionalmente(pessoas, p -> p.getSobreNome().startsWith("A") );
+		System.out.println("\nImprimindo pessoas cujo nome começa com C:");
+		imprimirSobrenomeCondicionalmente(pessoas, p -> p.getSobreNome().startsWith("C") );
 		
 		
 		
